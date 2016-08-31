@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan
+@ComponentScan(basePackages = "pl.altkom.asc.openshift.poc")
 @EnableAutoConfiguration
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
