@@ -1,4 +1,4 @@
-package pl.altkom.asc.openshift.poc.controller;
+package pl.altkom.asc.openshift.poc;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,7 @@ public class Controller {
 
     @RequestMapping("hello")
     public String sayHello(){
+
         return ("Hello, SpringBoot POC.");
     }
 }

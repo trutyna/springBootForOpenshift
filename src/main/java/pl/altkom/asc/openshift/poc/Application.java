@@ -1,4 +1,4 @@
-package pl.altkom.asc.openshift.poc.config;
+package pl.altkom.asc.openshift.poc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -9,8 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "pl.altkom.asc.openshift.poc")
 @EnableAutoConfiguration
+@ComponentScan
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
